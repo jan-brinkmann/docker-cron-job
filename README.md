@@ -25,7 +25,7 @@ Hello World!
 every minute.
 
 ## Customizing
-Set any cron schedule by setting `CRON_SCHEDULE`. For instance, if you want to run your job once day:
+Apply any cron schedule by setting `CRON_SCHEDULE`. For instance, if you want to run your job once day:
 ```
 docker run -e CRON_SCHEDULE="0 * * * *" docker-cron-job
 ```
