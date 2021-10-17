@@ -27,5 +27,5 @@ every minute (or whatever is defined in `cron.sh`).
 ## Customizing
 Apply any cron schedule by setting `CRON_SCHEDULE`. For instance, if you want to run your job once a day:
 ```
-docker run -e CRON_SCHEDULE="0 * * * *" docker-cron-job
+docker run -e CRON_SCHEDULE="0 0 * * *" docker-cron-job
 ```
